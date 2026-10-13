@@ -1,0 +1,6 @@
+# Optional overlay for local development without bundling:
+#   dsh web --patch ./cordis.yml
+# Replace the absolute path below with YOUR clone location.
+- insert:
+    - id: dsh-hide-ui
+      name: 'E:/path/to/dsh-hide-ui/index.js'

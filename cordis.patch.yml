@@ -1,0 +1,6 @@
+# dsh-hide-ui bundle patch.
+# Host half is a thin stub (commands + fallback inject).
+# Browser half (client.js) is loaded via the package `dsh.client` manifest.
+- insert:
+    - id: dsh-hide-ui
+      name: dsh-hide-ui
